@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  height: 150px;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Mind-controller{
+  font-size: 90px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: 'Vollkorn', serif;
+}
+
+.wrapper{
+  display: flex;
+  flex: 1;
+}
+
+.side{
+  width: 400px;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  &__header{
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main{
+  background-color: lightgray;
+}

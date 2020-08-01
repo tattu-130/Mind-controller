@@ -1,0 +1,32 @@
+.top{
+  height: 100vh;
+  background: linear-gradient(-45deg, rgba(0, 225, 255, 0.685), rgba(255, 0, 162, 0.616)),
+  url('sakura.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  box-sizing: border-box;
+  position: relative;
+  &__header{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  &__Mind-controller{
+    font-size: 100px;
+    font-weight: bold;
+  }
+  &__sub{
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.icon{
+  font-size: 60px;
+  color: yellow;
+  -webkit-text-stroke: 1px black;
+}
